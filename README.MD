@@ -1,21 +1,35 @@
-# 🎬 AZ-MPV
+<p align="center">
+  <img src="portable_config/logo.jpg" width="480" alt="AZ-MPV Logo">
+</p>
+
+<h1 align="center">🎬 AZ-MPV</h1>
 
 <p align="center">
-  <b>Next-Gen MPV-Based Video Player (Fork of mpv_PlayKit) featuring AI Upscaling, Custom Shaders, Modern UOSC UI, and Dedicated Subtitle Engine.</b>
+  <b>Next-Generation MPV Video Player (Fork of MPV PLAYKIT) featuring AI Upscaling, Custom Shaders, Modern UOSC UI, and Dedicated Subtitle Engine.</b>
 </p>
 
 <p align="center">
-  <a href="README.id.md"><b>Bahasa Indonesia</b></a> | <b>English</b>
+  <a href="README.id.md"><b>🇮🇩 Bahasa Indonesia</b></a> | <b>🇬🇧 English</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MPV-0.38+-purple.svg" alt="MPV Version">
-  <img src="https://img.shields.io/badge/Fork--of-mpv__PlayKit-red.svg" alt="Fork">
-  <img src="https://img.shields.io/badge/Language-Full%20English%20Translated-brightgreen.svg" alt="Full English Translated">
-  <img src="https://img.shields.io/badge/Architecture-x86__64-blue.svg" alt="Architecture">
-  <img src="https://img.shields.io/badge/License-GPL--2.0-green.svg" alt="License">
-  <img src="https://img.shields.io/badge/Status-Portable-orange.svg" alt="Portable">
+  <img src="https://img.shields.io/badge/MPV-0.38+-purple.svg?style=for-the-badge&logo=mpv" alt="MPV Version">
+  <img src="https://img.shields.io/badge/Fork--of-mpv__PlayKit-red.svg?style=for-the-badge" alt="Fork">
+  <img src="https://img.shields.io/badge/Language-Full%20English%20Translated-brightgreen.svg?style=for-the-badge" alt="Full English">
+  <img src="https://img.shields.io/badge/Architecture-x86__64-blue.svg?style=for-the-badge" alt="Architecture">
+  <img src="https://img.shields.io/badge/Status-Portable-orange.svg?style=for-the-badge" alt="Portable">
 </p>
+
+---
+
+## 📌 Quick Navigation
+
+- [🌟 About AZ-MPV](#-about-az-mpv)
+- [⚡ Stock MPV vs AZ-MPV Comparison](#-stock-mpv-vs-az-mpv)
+- [🚀 Key Features](#-key-features)
+- [⌨️ Keyboard Shortcuts](#️-keyboard-shortcuts)
+- [📥 Installation & Usage](#-installation--usage)
+- [📄 License & Credits](#-license--credits)
 
 ---
 
@@ -26,6 +40,22 @@
 > 🌐 **Full English Translation:** The original *mpv_PlayKit* project originated in Chinese. In **AZ-MPV**, all interface menus, configuration files (`mpv.conf`, `input_uosc.conf`), Lua/JS scripts, and OSD messages have been **fully translated into English** (with added support for Indonesian subtitle auto-translation).
 
 Combining **AI Motion Interpolation (RIFE)**, **AI Super Resolution (ESRGAN/ARTCNN)**, **Custom Shaders (Anime4K/KrigBilateral)**, and a **Modern UOSC UI**, AZ-MPV delivers a cinema-grade viewing experience out of the box with zero setup hassle.
+
+---
+
+## ⚡ Stock MPV vs AZ-MPV
+
+| Feature | Stock MPV | 🎬 **AZ-MPV** |
+| :--- | :---: | :---: |
+| **User Interface (UI)** | Minimal / Command Line | **Modern UOSC UI with Glassmorphism & Control Bar** |
+| **Subtitle Engine** | Basic System Fonts | **Bundled Portable Ubuntu Fonts + Interactive Subtitle Settings Menu** |
+| **Aspect Ratio Control** | Manual Configuration | **1-Click VLC-Style Aspect Ratio Switcher (16:9, 21:9, 4:3)** |
+| **AI Motion Interpolation** | ❌ None | **✅ 60FPS+ RIFE AI Frame Smoothing (NVIDIA TensorRT)** |
+| **AI Super Resolution** | ❌ None | **✅ ESRGAN, ARTCNN, & ACNET Machine Learning Models** |
+| **GPU Shader Suite** | ❌ Manual Setup | **✅ Anime4K, KrigBilateral, & SSimSuperRes Pre-Configured** |
+| **Audio Processing** | Raw Output | **LUFS -16 Loudness Normalization + Vocal Clarity EQ** |
+| **Interface Language** | Standard | **Full English Translated (100% Chinese-Free)** |
+| **Installation** | Setup Required | **100% Portable (Extract & Run)** |
 
 ---
 
@@ -71,7 +101,7 @@ Combining **AI Motion Interpolation (RIFE)**, **AI Super Resolution (ESRGAN/ARTC
 
 ---
 
-## ⌨️ Shortcut Keys
+## ⌨️ Keyboard Shortcuts
 
 | Key | Action |
 |---|---|
@@ -93,6 +123,12 @@ Combining **AI Motion Interpolation (RIFE)**, **AI Super Resolution (ESRGAN/ARTC
 2. Download the latest **AZ-MPV** `.zip` package.
 3. Extract to any directory (e.g., `C:\AZ-MPV` or `D:\AZ-MPV`).
 4. Run **`mpv.exe`** or **`MPV.bat`** to start watching!
+
+---
+
+## ⭐ Support & Feedback
+
+If you find **AZ-MPV** useful, please consider giving this repository a **🌟 Star** on GitHub!
 
 ---
 
